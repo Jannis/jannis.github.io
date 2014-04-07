@@ -1,0 +1,187 @@
+html {
+  background: #efefef;
+  line-height: 1.25em;
+  font-size: 1.01em;
+  padding: 0em;
+  margin: 0em;
+}
+
+body {
+  max-width: 90%;
+  padding: 0em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: /* #24bb70; */ #2cab4d;
+  font-family: 'Dosis';
+  font-weight: 400;
+  font-size: 2em;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+  margin: 2em 0em 1em 0em;
+}
+
+h2:before {
+  content: '\00BB  ';
+  font-weight: 300;
+  font-family: 'Dosis';
+  width: 0.75em;
+  display: inline-block;
+  position: relative;
+  bottom: 0.05em;
+}
+
+h2 {
+  font-family: 'Dosis';
+  font-weight: 300;
+  font-size: 1.25em;
+  padding: 0.25em;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+h2 .date {
+  margin-left: 4em;
+  font-size: 0.8em;
+  color: #333;
+}
+
+footer {
+  display: none;
+}
+
+article > h3, article > p, article > ul {
+  color: #666;
+  border-left: thin solid #2cab4d;
+  margin: 0em 0em 0em 0.5em;
+  padding: 1em 0.6em 0em 0.6em;
+  text-align: justify;
+  font-size: 1em;
+}
+
+article > h3 {
+  font-family: 'Dosis';
+  margin-left: 0.4175em;
+  padding-top: 2em;
+  font-size: 1.2em;
+}
+
+article > ul {
+  padding-left: 1.1em;
+  list-style: none;
+}
+
+article > ul ul {
+  list-style: square;
+}
+
+article > ul > li:before {
+  content: "\2014";
+  margin-right: 0.5em;
+}
+
+article > ul > li {
+  padding-left: 1.475em;
+  text-indent: -1.475em;
+  margin-bottom: 1em;
+}
+
+article > ul > li:last-child {
+  margin-bottom: 0em;
+}
+
+article > ul li li {
+  padding-left: 0em;
+  text-indent: 0em;
+  margin-top: 0.25em;
+}
+
+article {
+  position: absolute;
+  top: 6em;
+  width: 45%;
+}
+
+ul.posts li:before {
+  content: '';
+  margin: 0em;
+}
+
+ul.posts li {
+  margin-bottom: 0.15em;
+}
+
+h2 + * {
+  padding-top: 0em;
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+h2.hovered {
+  color: /* #24bb70; */ #2cab4d;
+}
+
+h2.active {
+  background: #fff;
+  color: /* #24bb70; */ #2cab4d;
+}
+
+article h2.active a, article h2.active a:link {
+  color: /* #24bb70; */ #2cab4d;
+}
+
+article.about > * {
+  display: none;
+}
+
+article.about > h2 {
+  display: inline-block;
+}
+
+a, a:link, a:visited {
+  color: #333;
+  text-decoration: none;
+  border-bottom: thin dotted #2cab4d;
+}
+
+a:hover {
+  color: #2cab4d;
+}
+
+h1 > a, h1 > a:link, h1 > a:visited {
+  color: /* #24bb70; */ #2cab4d;
+  border: 0em;
+}
+
+article h2 a, article h2 a:link {
+  color: #000;
+  border-bottom: 0em;
+}
+
+h1 .links {
+  margin-left: 1em;
+  font-size: 0.5em;
+}
+
+a.button {
+  font-family: 'Dosis';
+  font-weight: 300;
+  color: #777;
+  text-decoration: none;
+  border-bottom: 0em;
+  padding: 0em 0.5em 0em 0.5em;
+}
+.button:before { content: '['; margin-right: 0.1em; }
+.button:after  { content: ']'; margin-left:  0.1em; }
+.button:hover  { color: #333; }
+
+.highlight {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.highlight pre {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}

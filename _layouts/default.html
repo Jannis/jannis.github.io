@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    <link rel="stylesheet" type="text/css" href="/css/dosis-font.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        <a href="/">{{ site.name }}</a>
+        <span class="links">
+          <a class="button" href="/resume.pdf">CV</a>
+          <a class="button" href="/blog">BLOG</a>
+          <a class="button" href="http://twitter.com/jannispohlmann">TWITTER</a>
+          <a class="button" href="http://linkedin.com/in/jannispohlmann">LINKEDIN</a>
+          <a class="button" href="http://xing.com/profile/Jannis_Pohlmann">XING</a>
+        </span>
+      </h1>
+    </header>
+    <div id="content">
+      {{content}}
+    </div>
+    <footer>
+      <p>Copyright &copy; 2014 Jannis Pohlmann</p>
+    </footer>
+  </body>
+</html>
