@@ -133,6 +133,10 @@ article h2.active a, article h2.active a:link {
   color: /* #24bb70; */ #2cab4d;
 }
 
+article.about {
+  padding-bottom: 2em;
+}
+
 article.about > * {
   display: none;
 }
