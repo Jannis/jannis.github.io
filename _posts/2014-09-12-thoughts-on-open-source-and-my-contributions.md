@@ -1,6 +1,9 @@
-<article id="open-source-enthusiast" class="about" markdown="1">
-
-## Open Source Enthusiast
+---
+layout: post
+title:  Thoughts on Open Source and my Contributions
+date:   2014-09-12 17:46:00
+categories:
+---
 
 I believe in Open Source. I think it is a fantastic way for people to
 experience working together passionately from all around the globe and
@@ -10,10 +13,11 @@ further.
 It's these aspects that make the open source ecosystem so much more than
 pure development. The variety of opinions in and approaches taken by
 communities means that there is a strong emphasis on debating ideas, on
-tactful communication and on reaching consensus. Yet a large part of
-open source projects are also do-ocracies or meritocracies, where the
+tactful communication and on reaching consensus. Then again, a large part
+of open source projects are also do-ocracies or meritocracies, where the
 main means of communication and gaining trust is the contribution of
-actual code (&#8212;a refreshing contrast to politics!).
+actual code (&#8212;on a side note, I sometimes think it would be nice
+if politics would work a little bit like this).
 
 Combined with the fact that open source projects are governed and
 developed in public, this makes for an ecosystem rich of advantages:
@@ -49,8 +53,6 @@ projects:
   [Xfce desktop environment](http://xfce.org) since 2006 (although
   less and less since I started working)
 * Some of my achievements, contributions and roles include:
-    - Founding member and first president of the Xfce Foundation (likely
-      to be replaced by an umbrella organisation)
     - Author of the
       [Xfce Release Model](http://xfce.org/about/releasemodel)
     - Release manager for
@@ -72,9 +74,10 @@ projects:
       [xfdesktop](http://git.xfce.org/xfce/xfdesktop/),
       [thunar-volman](http://git.xfce.org/xfce/thunar-volman)) to
       GIO/GVfs
-    - Other initiatives include moving all translators of Xfce to
+    - Other initiatives include moving Xfce translations to
       [Transifex](http://transifex.org) and launching the
-      [Xfce Design SIG](http://wiki.xfce.org/design/start) in 2011
+      [Xfce Design SIG](http://wiki.xfce.org/design/start) in 2011,
+      both of which have lead to significant improvements
 * I have given talks on
   [Xfce 4.6](http://lunar-linux.org/~jannis/xfce/fosdem-2009/fosdem-2009-xfce4.6-and-then.pdf)
   and
@@ -99,5 +102,3 @@ projects:
       distributed, traceable development, building and deployment
       of embedded software systems, launched by my former employer
       [Codethink](http://codethink.co.uk)
-
-</article>

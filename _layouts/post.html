@@ -2,8 +2,9 @@
 layout: default
 ---
 <article class="post">
+  <div class="back"><a href="/">Back</a></div>
   <h2 class="active">
-    {{ page.title }}
+    <span class="title">{{ page.title }}</span>
     <span class="date">{{page.date | date: '%Y-%m-%d at %H:%M:%S'}}</span>
   </h2>
   {{ content }}

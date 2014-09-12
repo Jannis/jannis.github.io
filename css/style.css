@@ -1,58 +1,169 @@
-html {
+html, body {
   background: #efefef;
-  line-height: 1.25em;
-  font-size: 1.11em;
-  padding: 0em;
-  margin: 0em;
+}
+
+html {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  max-width: 90%;
-  padding: 0em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 65%;
+  padding: 0;
+  margin: 0 auto 0 auto;
   font-family: 'Dosis';
+  line-height: 1.25em;
+  font-size: 1.11em;
 }
 
-h1 {
+header {
+  padding: 2rem 2rem 2rem 2rem;
+  background: #eaeaea;
+  border-bottom: thick solid #ddd;
+}
+
+header #title {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+header #title h1 {
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: calc(100px + 2rem);
+  line-height: 2rem;
   color: /* #24bb70; */ #2cab4d;
   font-family: 'Dosis';
   font-weight: 400;
   font-size: 2em;
   text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
-  margin: 2em 0em 1em 0em;
+  vertical-align: baseline;
 }
 
-h2:before {
-  content: '\00BB  ';
-  font-weight: 300;
-  font-family: 'Dosis';
-  width: 0.75em;
+header #title h1 > a,
+header #title h1 > a:link,
+header #title h1 > a:visited {
+  text-decoration: none;
+  color: /* #24bb70; */ #2cab4d;
+  border: 0em;
+}
+
+header #title ul {
+  box-sizing: border-box;
+  list-style: none;
+  line-height: 2rem;
+  vertical-align: baseline;
+  margin: 0 0 0 0;
+  padding-left: calc(100px + 2rem);
+}
+
+header li {
   display: inline-block;
-  position: relative;
-  bottom: 0.05em;
 }
 
-h2 {
-  font-family: 'Dosis';
-  font-weight: 300;
-  font-size: 1.15em;
-  padding: 0.25em;
-  margin-top: 2em;
-  display: inline-block;
+header li:first-child .button {
+  padding-left: 0;
 }
 
-h2 .date {
-  margin-left: 4em;
-  font-size: 0.8em;
-  color: #333;
+header #about {
+  width: 75%;
+  display: table;
+  margin: 2rem 0 0 0;
+}
+
+header p {
+  display: table-cell;
+  vertical-align: top;
+  margin: 0;
+  padding: 0 0 0 2rem;
+}
+
+header #photo {
+  display: table-cell;
+  height: 100px;
+  width: 100px;
+  padding: 0;
 }
 
 footer {
+  padding-left: calc(100px + 2rem);
   display: none;
 }
 
-article > h3, article > p, article > ul {
+main {
+  padding: 0 2rem 1rem 2rem;
+  padding-left: calc(100px + 3rem);
+}
+
+main .back,
+main h2 {
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin: 0;
+  padding: 0.25em;;
+  background: #fff;
+  color: #2cab4d;
+  vertical-align: baseline;
+}
+
+main .back:before,
+main h2:before {
+  position: relative;
+  box-sizing: border-box;
+  width: 0.75em;
+}
+
+main h2:before {
+  content: '\00BB  ';
+}
+
+main h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main h2 .date {
+  float: right;
+  font-size: 0.8em;
+  color: #333;
+  word-spacing: 0.25em;
+  vertical-align: baseline;
+}
+
+main h2 + * {
+  padding-top: 0em;
+}
+
+main h2 a,
+main h2 a:link {
+  color: #000;
+  border-bottom: 0em;
+}
+
+main .back:before {
+  content: '\00AB  ';
+  text-align: left;
+}
+
+main .back {
+  margin-left: calc(-100px - 1rem);
+  float: left;
+}
+
+main .back a,
+main .back a:link,
+main .back a:visited {
+  color: /* #24bb70; */ #2cab4d;
+  border: 0;
+}
+
+main article {
+}
+
+main article > h3,
+main article > p,
+main article > ul {
   color: #666;
   border-left: thin solid #2cab4d;
   margin: 0em 0em 0em 0.5em;
@@ -61,96 +172,59 @@ article > h3, article > p, article > ul {
   font-size: 1em;
 }
 
-article > h3 {
+main article > h3 {
   font-family: 'Dosis';
-  margin-left: 0.4175em;
   padding-top: 2em;
-  font-size: 1.2em;
 }
 
-article > ul {
-  padding-left: 1.1em;
+main article > ul {
+  padding-left: 0;
   list-style: none;
 }
 
-article > ul ul {
+main article > ul ul {
   list-style: square;
 }
 
-article > ul > li:before {
+main article > ul > li:before {
+  box-sizing: border-box;
   content: "\2014";
-  margin-right: 0.5em;
+  margin-left: 0.75em;
+  padding-right: 0.5em;
 }
 
-article > ul > li {
-  padding-left: 1.475em;
-  text-indent: -1.475em;
+main article > ul > li {
+  text-indent: -2.00em;
+  padding-left: 2.00em;
   margin-bottom: 1em;
 }
 
-article > ul > li:last-child {
+main article > ul > li:last-child {
   margin-bottom: 0em;
 }
 
-article > ul li li {
+main article > ul li li {
   padding-left: 0em;
   text-indent: 0em;
   margin-top: 0.25em;
 }
 
-article {
-  position: absolute;
-  top: 6em;
-  width: 45%;
-}
-
-article > *:last-child {
+main article > *:last-child {
   padding-bottom: 1em;
 }
 
-ul.posts li:before {
+main ul.posts li:before {
   content: '';
   margin: 0em;
 }
 
-ul.posts li {
+main ul.posts li {
   margin-bottom: 0.15em;
 }
 
-h2 + * {
-  padding-top: 0em;
-}
-
-h2:hover {
-  cursor: pointer;
-}
-
-h2.hovered {
-  color: /* #24bb70; */ #2cab4d;
-}
-
-h2.active {
-  background: #fff;
-  color: /* #24bb70; */ #2cab4d;
-}
-
-article h2.active a, article h2.active a:link {
-  color: /* #24bb70; */ #2cab4d;
-}
-
-article.about {
-  padding-bottom: 2em;
-}
-
-article.about > * {
-  display: none;
-}
-
-article.about > h2 {
-  display: inline-block;
-}
-
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   color: #333;
   text-decoration: none;
   border-bottom: thin dotted #2cab4d;
@@ -160,22 +234,10 @@ a:hover {
   color: #2cab4d;
 }
 
-h1 > a, h1 > a:link, h1 > a:visited {
-  color: /* #24bb70; */ #2cab4d;
-  border: 0em;
-}
-
-article h2 a, article h2 a:link {
-  color: #000;
-  border-bottom: 0em;
-}
-
-h1 .links {
-  margin-left: 1em;
-  font-size: 0.5em;
-}
-
-a.button {
+.button,
+header .button,
+header .button:link
+header .button:visited {
   font-family: 'Dosis';
   font-weight: 300;
   color: #777;
@@ -185,7 +247,8 @@ a.button {
 }
 .button:before { content: '['; margin-right: 0.1em; }
 .button:after  { content: ']'; margin-left:  0.1em; }
-.button:hover  { color: #333; }
+.button:hover
+header a.button:hover { color: #333; }
 
 .highlight {
   margin-top: 1em;
