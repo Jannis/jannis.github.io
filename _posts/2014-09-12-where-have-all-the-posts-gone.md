@@ -10,3 +10,5 @@ there. I have moved everything to
 [http://gezeiten.org/pre-2014](http://gezeiten.org/pre-2014). Most of
 the old post URLs should still be working, so whatever links to my
 website exist out there, they should be ok.
+
+The Atom feed is gone and has been replaced with an [RSS feed](/rss.xml).

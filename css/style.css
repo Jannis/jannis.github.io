@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  width: 65%;
+  width: 75%;
+  max-width: 50em;
   padding: 0;
   margin: 0 auto 0 auto;
   font-family: 'Dosis';
@@ -124,11 +125,22 @@ main h2 {
 }
 
 main h2 .date {
-  float: right;
-  font-size: 0.8em;
-  color: #333;
-  word-spacing: 0.25em;
-  vertical-align: baseline;
+  float: left;
+  display: block;
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-left: -100px;
+  margin-top: 3.8rem;
+  text-align: center;
+  color: #666;
+}
+
+main h2 .year {
+  font-size: 1.25em;
+}
+
+main h2 .time {
+  font-size: 1.15em;
 }
 
 main h2 + * {
@@ -137,7 +149,6 @@ main h2 + * {
 
 main h2 a,
 main h2 a:link {
-  color: #000;
   border-bottom: 0em;
 }
 
@@ -153,8 +164,11 @@ main .back {
 
 main .back a,
 main .back a:link,
-main .back a:visited {
-  color: /* #24bb70; */ #2cab4d;
+main .back a:visited
+main h2 a,
+main h2 a:link,
+main h2 a:visited {
+  color: #2cab4d;
   border: 0;
 }
 
@@ -219,7 +233,12 @@ main ul.posts li:before {
 }
 
 main ul.posts li {
+  padding-left: 2.25em;
   margin-bottom: 0.15em;
+}
+
+main ul.posts a {
+  margin-left: 0.5em;
 }
 
 a,

@@ -44,7 +44,14 @@ decisions and progress.
 ### Personal contributions
 
 Over the last decade I have been involved in various open source
-projects:
+projects. It's always been a great pleasure and what I have learned
+greatly exceeds the possibilities of any formal education out there.
+
+If you are interested in getting involved in an Open Source project,
+perhaps the list below gives you an idea of the variety of things you
+can do, from development, design, translations and community engagement
+to incorporating elements into your formal education and eventually
+working in or with Open Source software.
 
 * I used to be an active contributor to
   [Lunar Linux](http://lunar-linux.org), a source based Linux
@@ -97,8 +104,9 @@ projects:
       service-oriented Git object store and web API, and its reference
       implementation
       [python-consonant](http://github.com/CodethinkLabs/python-consonant),
-      both of which I designed and (partly) implemented
+      both of which I designed and (partly) implemented while at
+      [Codethink](http://codethink.co.uk)
     - [Baserock](http://baserock.org), an open source project for
       distributed, traceable development, building and deployment
       of embedded software systems, launched by my former employer
-      [Codethink](http://codethink.co.uk)
+      Codethink

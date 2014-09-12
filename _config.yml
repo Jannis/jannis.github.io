@@ -1,3 +1,5 @@
 name: Jannis Pohlmann
+url: http://gezeiten.org
+author: Jannis Pohlmann
 markdown: kramdown # redcarpet
 highlighter: pygments
