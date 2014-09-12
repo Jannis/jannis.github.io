@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Thoughts on Open Source and my Contributions
+title:  Thoughts on Open Source and my own contributions
 date:   2014-09-12 17:46:00
 categories:
 ---

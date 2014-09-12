@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hello Again!
+title:  Hello again!
 date:   2014-09-12 14:30:00
 categories:
 ---

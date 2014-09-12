@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Where Have all the Posts Gone?
+title:  Where have all the posts gone?
 date:   2014-09-12 14:56:00
 categories:
 ---
