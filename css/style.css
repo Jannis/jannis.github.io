@@ -132,7 +132,7 @@ main .date {
   padding: 1rem;
   margin-left: calc(-100px - 1.25rem);
   text-align: center;
-  margin-top: -0.25em;
+  box-sizing: border-box;
 }
 
 main .post .date {
