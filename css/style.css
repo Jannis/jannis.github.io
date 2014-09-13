@@ -93,6 +93,20 @@ header #photo {
   padding: 0;
 }
 
+@media (max-width: 600px) {
+  header #title h1 {
+    margin-left: 0;
+  }
+
+  header #title ul {
+    padding-left: 0;
+  }
+
+  header #about {
+    width: 100%;
+  }
+}
+
 footer {
   padding-left: calc(100px + 2rem);
   display: none;
