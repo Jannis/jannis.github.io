@@ -8,13 +8,20 @@ html {
 }
 
 body {
-  width: 75%;
   max-width: 50em;
+  width: 75%;
   padding: 0;
   margin: 0 auto 0 auto;
   font-family: 'Dosis';
   line-height: 1.25em;
   font-size: 1.11em;
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 header {
