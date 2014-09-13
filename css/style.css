@@ -281,6 +281,12 @@ header a.button:hover { color: #333; }
   padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
+main .comment-count {
+  float: right;
+  display: block;
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   body {
     width: 100%;
