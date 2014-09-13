@@ -3,13 +3,13 @@ layout: default
 ---
 <article class="post">
   <div class="back"><a href="/">Back</a></div>
+  <div class="date">
+    {{page.date | date: '%d %b'}}<br/>
+    <span class="year">{{page.date | date: '%Y'}}</span><br/>
+    <span class="time">{{page.date | date: '%H:%m'}}</span>
+  </div>
   <h2 class="active">
     <span class="title">{{ page.title }}</span>
-    <span class="date">
-      {{page.date | date: '%d %b'}}<br/>
-      <span class="year">{{page.date | date: '%Y'}}</span><br/>
-      <span class="time">{{page.date | date: '%H:%m'}}</span>
-    </span>
   </h2>
   {{ content }}
 </article>
