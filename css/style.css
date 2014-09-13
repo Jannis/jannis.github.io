@@ -308,8 +308,8 @@ header a.button:hover { color: #333; }
   main .back {
     float: none;
     margin-left: 0rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 0rem;
     display: inline-block;
   }
 
