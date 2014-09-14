@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  Early experiences with the JavaScript world
-date:   2014-09-14 03:41:00
+layout:     post
+title:      Early experiences with the JavaScript world
+date:       2014-09-14 03:41:00
+categories:
 ---
 
 Over the past 4-5 weeks, I have done a fair amount of explorative
