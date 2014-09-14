@@ -251,6 +251,20 @@ is that it is a complex framework. If you've ever dived into
 `DS.Model.save()` with a debugger step by step, you'll know what I mean.
 I am concerned about loosing control.
 
+[Web Components](http://webcomponents.org/) (see also [this talk
+here](https://www.youtube.com/watch?v=OoaUd5NxiYk) look like a promising
+alternative to Angular directives that could also work with Ember at
+some point. Besides Web Components looking like a lot of fun, there are
+apparently plans to support them in both frameworks already. I'm not sure
+how much fun it is going to be to work with a mix of in-component JS and
+application logic written in e.g. Ember, especially when it comes to
+routing, transitioning, data binding, off- and online syncing etc. but
+as self-contained and -styled elements that you can pass data bindings
+into from e.g. Ember I imagine they could be pretty cool. Ember
+components feel a little cumbersome and all over the place to me so
+far, with their separate templates, `Ember.Component` subclasses and
+global CSS.
+
 ### Integration of Ember and jQuery
 
 Allow me one short note about Ember and jQuery. Ember loads its views,
