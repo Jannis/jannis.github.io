@@ -39,7 +39,7 @@ excited.
 At times, during these weeks, I felt like the teenage programmer I once
 was, inexperienced and lost, blindly digging around in a complex world
 with endless choices and possibilities, with days and days of trial and
-error but nothing that just works. I guess coming to JavaScript from the
+error but nothing that just worked. I guess coming to JavaScript from the
 desktop and embedded world takes some time to adjust.
 
 I wanted to share our findings so far, perhaps they will help some of
