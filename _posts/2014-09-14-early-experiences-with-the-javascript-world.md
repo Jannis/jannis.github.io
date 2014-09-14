@@ -241,14 +241,14 @@ Well, as soon as the promises for those objects are resolved. That's
 where Ember can get confusing: async model relationships can result in
 confusion about when those relationships are actually ready.
 Serialization and deserialization of JSON data can be tricky if the web
-API doesn't match what Ember expects. Did I mention issues with
+API doesn't match Ember's expectations. Did I mention issues with
 duplicates in the local store cache when saving records with
 relationships to other objects? Fun.
 
 Apart from that, Ember feels pretty intuitive to me. The reason I will
 be evaluating other solutions before fully committing to Ember, however,
-is that it is a complex framework. If you've ever dived into
-`DS.Model.save()` with a debugger step by step, you'll know what I mean.
+is that it is a complex framework. If you have ever dived into
+`DS.Model.save()` with a step by step debugger, you'll know what I mean.
 I am concerned about loosing control.
 
 [Web Components](http://webcomponents.org/) (see also [this talk
