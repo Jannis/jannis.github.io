@@ -44,8 +44,8 @@ desktop and embedded world takes some time to adjust.
 
 I wanted to share our findings so far, perhaps they will help some of
 you to find your way around the technologies involved in hybrid mobile
-development. Perhaps recapping helps me understand what I have seen more
-deeply.
+development. Perhaps recapping helps me understand better what I have
+been looking at so far.
 
 ## Experiences
 
