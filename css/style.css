@@ -15,6 +15,7 @@ body {
   font-family: 'Dosis';
   line-height: 1.25em;
   font-size: 1.11em;
+  transition: width 0.25s ease-in;
 }
 
 header {
@@ -94,6 +95,7 @@ footer {
 main {
   padding: 0 2rem 1rem 2rem;
   padding-left: calc(100px + 3rem);
+  transition: padding-left 0.25s ease-in;
 }
 
 main .back,
