@@ -149,9 +149,9 @@ between the two but my impression is that NPM is mostly used for build
 tools, shell utilities, generators, converters, anything that you would
 need to launch your project (e.g. in your browser), whereas Bower is
 used to install JS libraries needed by your project at runtime. The
-truth is probably somewhere inbetween.
+truth is probably somewhere in between.
 
-I've found Bower to particularly cool. It's just so easy to run
+I've found Bower to be particularly cool. It's just so easy to run
 
 {% highlight bash %}
 bower install --save ember
@@ -249,10 +249,10 @@ Apart from that, Ember feels pretty intuitive to me. The reason I will
 be evaluating other solutions before fully committing to Ember, however,
 is that it is a complex framework. If you have ever dived into
 `DS.Model.save()` with a step by step debugger, you'll know what I mean.
-I am concerned about loosing control.
+I am concerned about losing control.
 
 [Web Components](http://webcomponents.org/) (see also [this talk
-here](https://www.youtube.com/watch?v=OoaUd5NxiYk) look like a promising
+here](https://www.youtube.com/watch?v=OoaUd5NxiYk)) look like a promising
 alternative to Angular directives that could also work with Ember at
 some point. Besides Web Components looking like a lot of fun, there are
 apparently plans to support them in both frameworks already. I'm not sure
