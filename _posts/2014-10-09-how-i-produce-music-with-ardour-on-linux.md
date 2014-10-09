@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      How I record and mix music with Ardour on Linux
+title:      How I produce music with Ardour on Linux
 date:       2014-10-09 05:11:00
 categories:
 ---
