@@ -183,7 +183,8 @@ main article {
 
 main article > h3,
 main article > p,
-main article > ul {
+main article > ul,
+main article > .embed {
   color: #666;
   border-left: thin solid #2cab4d;
   margin: 0em 0em 0em 0.5em;
@@ -245,6 +246,11 @@ main ul.posts li {
 
 main ul.posts a {
   margin-left: 0.5em;
+}
+
+main img {
+  width: 100%;
+  border-radius: 0.25em;
 }
 
 a,
