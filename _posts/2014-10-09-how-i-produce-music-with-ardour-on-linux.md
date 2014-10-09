@@ -633,8 +633,10 @@ and exporting process using Ardour; all spiced up with songs that I
 produced using Linux, Ardour and (with linuxDSP being the only
 exception) free and open source software plugins and tools.
 
-I hope you enjoyed this article and found it useful. Take care and have
-fun producing music on Linux!
+I hope you enjoyed this article and found it useful. Take care and have fun
+producing music on Linux! And if you liked the music, follow my band *Brittle
+Giants* on [SoundCloud](http://soundcloud.com/brittlegiants) or
+[Facebook](https://www.facebook.com/brittlegiants).
 
 [Ardour]: http://ardour.org
 [Brittle Giants]: http://soundcloud.com/brittlegiants
