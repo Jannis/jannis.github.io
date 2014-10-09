@@ -295,8 +295,8 @@ more instruments and so on. You will need more at some point.
 
 Since this is more or less the same for every new Ardour project I
 create, I have saved one of these projects as a template that I then
-selected whenever creating another project. Since I tend to layer
-guitars *a lot*, this template roughly includes the following tracks:
+select whenever creating another project. Since I tend to layer guitars
+*a lot*, this template roughly includes the following tracks:
 
 {% highlight html %}
 (Track, Mono) D Kick in
@@ -359,9 +359,9 @@ and so on). Below that are the drums. Below that follow the guitars,
 starting with the tracks that play at the beginning of the song,
 concluded further down by the tracks that play towards the end. Even
 though it is usually playing during the entire song (like the drums),
-the bass is located at the bottom. This is because I usually record it
-at the very end and what the tracks out of my way during the majority of
-the work.
+the bass is located at the bottom. This is because I often record it
+at the very end and want the bass tracks out of my way while working
+on the other tracks.
 
 ### Record, Now! &#8212; The recording process
 
@@ -382,9 +382,9 @@ go back to drums and work out the drums for the entire song. I'll export
 the result, play it to others and to myself repeatedly and take mental
 note of things that I don't like. Usually, all parts are too long, so
 when I go back to working on the song again, I don't shy away from
-cutting it together drastically. If this results in abrupt breaks in the
-song, I see if I can support, emphasize or smoothen out those breaks
-through my drumming.
+cutting them together drastically. If this results in abrupt breaks in
+the song, I'll see if I can support, emphasize or smoothen out those
+breaks through my drumming.
 
 Once I'm happy with the demo song, I'll start again from scratch, with
 an empty project. The first step is always creating markers and tempos,
@@ -418,18 +418,18 @@ are, technically, all part of the mixing process.
 Let's start with a few recommendations. Two books about mixing that I
 can recommend if you are a patient reader are [Mixing Audio] by Roey
 Izhaki and [Mixing Secrets] by Mike Senior. They describe all aspects of
-mixing in *detail*.
+mixing in great detail. The emphasis is on detail here.
 
 If you are like me&#8212;and if you have a Linux / open source
 background, you probably are to some degree&#8212;you'll be happier just
 reading up on and understanding the basics and learning the rest through
 experimenting. I've found the hands-on tutorials by [The Recording
-Revolution] extremely useful, especially the different "30 Mixing Tricks
-in 30 Days" series. Unless you're religious (and christian), be sure not
-to pay too much attention to the songs used in the tutorials, otherwise
-it can be a little off-putting as they are all about god and stuff. But
-the tutorials are really good, incredibly practical right away and make
-a lot of sense, so go watch them.
+Revolution] to be extremely useful, especially the different "30 Mixing
+Tricks in 30 Days" series. Unless you're religious (and christian), be
+sure not to pay too much attention to the songs used in the tutorials,
+otherwise it can be a little off-putting as they are all about god and
+stuff. But the tutorials are really good, incredibly practical right
+away and make a lot of sense, so go watch them.
 
 Back to Ardour. Cutting and editing audio regions and transitions aside,
 most of the mixing takes place in the mixer view. In the Ardour project
@@ -454,10 +454,10 @@ together.
 The main area of the mixer view is dedicated to the mixer strips. There
 is one for each track and bus (unless hidden). From top to bottom, a
 mixer strip includes the track name, audio input (all disconnected in
-the screenshot, sadly), phase inverted toggle switch, pre- (red) and
-post-fader (green) effects, panning controls, a group of monitoring and
-recording utilities, volume fader, automation control and volume probe
-point, group, and comments.
+the screenshot, sadly), toggle switch for inverting phase, pre- (red)
+and post-fader (green) effects, panning controls, a group of monitoring
+and recording utilities, volume fader, automation control and volume
+probe point, group, and comments.
 
 There's also a separate mixer strip for the master bus, which usually is
 the last point where you can alter the sound before it leaves Ardour
@@ -485,7 +485,7 @@ but the kick, applying a compressor (usually
 [Invada](https://encrypted.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCwQtwIwAg&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFYwTQDcJ3cQ&ei=8Og1VPyXCMWrPKGngFA&usg=AFQjCNE6ala5pCO6nu2TwgxXbO-bpk9xmA&sig2=CnFtfdgez6icpXyy8djP9Q&bvm=bv.76943099,d.ZWU)
 or linuxDSP's
 [DYN500](http://linuxdsp.co.uk/download/lv2/download_500/index.html)) to
-kick, snare and toms, followed by subtle EQ-ing (usually the regular
+kick, snare and toms, followed by subtle EQ-ing (usually a regular
 multiband EQ or linuxDSP's parametric
 [Black-EQ](http://linuxdsp.co.uk/download/lv2/download_black_eq/index.html)).
 I sometimes add a reverb to the snare as well (usually [Calf
@@ -500,12 +500,11 @@ I've boosted the kick drum, so that they stay out of each other's way.
 
 In order to blend drums and bass together nicely and give them enough
 punch to cut through the mix, I'll often apply ultra heavy compression
-to the "Drums + Bass" bus, as well as boosting highs and lows on this
-bus a little bit. I'll keep the volume of this bus down all the way
-until the guitars and everything else have been mixed. I'll then slowly
-move the D+B fader up until the attack and punch of drums and bass cut
-through a little bit more than without the D+B bus. This technique is
-known as [Parallel
+to the "Drums + Bass" bus, as well as boosting highs and lows a little
+bit. I'll keep the volume of this bus down all the way until the guitars
+and everything else have been mixed. I'll then slowly move the D+B fader
+up until the attack and punch of drums and bass cut through a little bit
+more than without the D+B bus. This technique is known as [Parallel
 Compression](http://music.tutsplus.com/tutorials/give-drums-impact-with-parallel-compression--audio-2118).
 
 Note: The EQ-ing applied so far is usually gentle, as drums and bass
@@ -520,11 +519,12 @@ general rule, I'll apply a band-pass filter (e.g. the Glame high/low
 pass filters or linuxDSPs
 [BLACK-EQ](http://linuxdsp.co.uk/download/lv2/download_black_eq/index.html))
 to all guitar busses first (cutting of around 250 Hz and 7000 Hz but
-that depends on the sound I get from the mics). I'll then equalize
-foreground guitars a little bit brighter than background guitars. The
-majority of time I'll usually spend on balancing the volumes and panning
-of all the guitar layers and decide to which guitar bus they should
-belong.
+that depends on the sound I get from the mics). This eliminates
+undesirable rumbling in the lows and fizzy distortion highs and makes
+room for kick, bass, toms and cymbals. I'll then equalize foreground
+guitars a little bit brighter than background guitars. The majority of
+time I'll usually spend on balancing the volumes and panning of all the
+guitar layers and decide to which guitar bus they should belong.
 
 This is an iterative process, not a step by step guide that can be
 followed once from beginning to end. I tend to mix with a mild
@@ -538,22 +538,27 @@ harshly.
 ### Listening to intermediate mixes
 
 I find it crucial to regularly take the current state of the mix, export
-it and play it back via different stereos, speakers, headphones etc. to
-understand where it lacks clarity, punch or character. Without this,
-there is always a risk that it will only sound good on your monitors.
+it, leave the studio and play the song back to mself and others via
+different stereos, speakers, headphones etc. to understand where it
+lacks clarity, punch or character. Without this, there is always a risk
+that it will only sound good on your monitors.
+
+It really helps to play the song to others. As soon as I feel the urge
+to explain why a part is like this or that I know something is wrong. In
+most cases the lead melody isn't great or the part is too long and it
+makes me uncomfortable in front of the other person.
 
 ## Reading Break &#8212; "Unfinished Song October 2014"
 
 Congratulations, you've almost made it! Why not take another break
-before we pace through the last topic&#8212;exporting to
-WAV/FLAC/MP3?
+before we move on to the last topic&#8212;exporting to WAV/FLAC/MP3?
 
 Here is a little teaser for one of the songs I am currently working on.
 Unlike the other songs used in this article, this one uses DI/line out
 for all guitar and bass tracks. And while the others use a classic [ORTF
 overhead miking
 technique](http://www.harmonycentral.com/articles/ortf-stereo-microphone-technique),
-this song here uses Recorderman plus spot mics. The mix is a little
+this song uses Recorderman plus spot mics. The mix is a little
 unbalanced but in my opinion the drums sound miles better thanks to
 changing technique and the guitars sounding less muddy. Anyway, judge
 for yourself.
@@ -571,30 +576,34 @@ to Bob Katz' excellent [Mastering Audio] book.
 ### Export to WAV
 
 Instead, let us quickly look into exporting your mixed session from
-Ardour into a WAV or even FLAC or MP3. For this, you define the
-start and end of your session using markers (either the special "start"
-and "end" markers or by defining a range). Following that, all you have
-to do to obtain a WAV file is to go to *Session > Export > Export To
-Audio File(s)* in the Ardour menu. Before doing that, however, ensure
-that the playhead is located at the start of the session or range (I
-have encountered occasional mangled exports when Ardour had to jump to
-the start by itself during export).
+Ardour into a WAV or even FLAC or MP3. For this, you first have to
+define the start and end of your session using markers (either via the
+special "start" and "end" markers or by defining a range). Following
+that, all you have to do to obtain a WAV file is to go to *Session >
+Export > Export To Audio File(s)* in the Ardour menu. Before doing that,
+however, ensure that the playhead is located at the start of the session
+or range&#8212;I have on several occasions encountered garbled exports
+when Ardour had to jump to the start by itself during export.
 
 Export settings can have an impact on the audio quality. I would
 recommend against normalization, as it can introduce distortion into the
 resulting audio file. Instead, make sure your master peak volume never
 exceeds 0dB (or -6dB if you intend to master the exported result
-separately and want to prereserve some headroom for that).
+separately and want to prereserve some headroom for that). In fact, -1dB
+might be a better limit (or 0dB on a true peak meter), as converting to
+MP3 may lead to individual samples exceeding the maximum value in your
+original WAV.
 
-Apart from that, I'd go for WAV, lossless (linear PCM), 24/32 bit (with
-dithering if applicable) and either the same sample rate that you are
-using in your Ardour project or 44.1 kHz.
+Apart from that, I'd go for WAV, lossless (linear PCM), 24 or 32 bit
+(with dithering if applicable) and either the same sample rate that you
+are using in your Ardour project or 44.1 kHz.
 
-When choosing a file name for the mixdown, date and time are always a
-good idea. Or revisions, it's up to you. I personally prefer date
-information over arbitrary numbers that are easy to forget.
+When choosing a file name for the mixdown, including date and time are
+always a good idea. Or revisions, it's up to you. I personally prefer
+date information over revisions, which are essentially arbitrary made-up
+numbers that are easy to forget. Dates are obvious.
 
-### Convert to MP3
+### Converting to MP3
 
 Ardour 3 will save the exported result in the `export/` directory inside
 your Ardour project. To convert the WAV file to an MP3, open a terminal
@@ -609,9 +618,10 @@ This will generate a file with the same name as `<filename>` except that
 it will end on `.mp3` instead of `.wav`. There are various switches to
 control the MP3 output quality. `-V2` stands for "variable bitrate,
 reasonably high quality", there's also `-V0` (best) to `-V9` (worst) and
-a `-b<rate>` flag for choosing specific bitrates.
+a `-b<rate>` flag for choosing specific fixed bitrates (e.g. 128, 192 or
+320).
 
-### Convert to FLAC
+### Converting to FLAC
 
 Since FLAC is a lossless audio file format, you don't need any special
 flags to control the output quality. All you have to do is run
@@ -630,12 +640,13 @@ So, this is it&#8212;a fairly elaborate article about an example home
 studio recording setup, instrument miking techniques, Linux
 configuration for realtime audio processing, and the recording, mixing
 and exporting process using Ardour; all spiced up with songs that I
-produced using Linux, Ardour and (with linuxDSP being the only
+produced using Linux, Ardour and (with linuxDSP plugins being the only
 exception) free and open source software plugins and tools.
 
-I hope you enjoyed this article and found it useful. Take care and have fun
-producing music on Linux! And if you liked the music, follow my band *Brittle
-Giants* on [SoundCloud](http://soundcloud.com/brittlegiants) or
+I hope you enjoyed this article and found it useful. Take care and have
+fun producing music on Linux! And if you liked the music, please follow
+my band **Brittle Giants** on
+[SoundCloud](http://soundcloud.com/brittlegiants) or
 [Facebook](https://www.facebook.com/brittlegiants).
 
 [Ardour]: http://ardour.org
