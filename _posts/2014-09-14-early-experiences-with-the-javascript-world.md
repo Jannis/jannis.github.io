@@ -66,7 +66,7 @@ work and hardly any of them are stable.
 For example, there are hundreds of JS/CSS UI frameworks out there. Half
 of them are modeled around Bootstrap but aren't nearly as useful or
 clean (if you can say that about Bootstrap, I'm not sure). 80% of them
-all are crap anyway, meaning that there are very few out there that are
+all are half-baked anyway, meaning that there are very few out there that are
 useful for building mobile apps.
 
 ### Communication
@@ -75,8 +75,8 @@ In JavaScript, communication appears to work differently than in, say,
 the Linux world. It isn't very surprising but it's worth mentioning
 anyway. I'd like to give two particular examples: Ionic and Ember.
 
-Yes, they have IRC channels (like, for instance, the Fedora Project or
-the Xfce desktop environments do). There are about 50-60 and 360-370
+Yes, they have IRC channels (like, for instance, the Fedora Project and
+the Xfce desktop environment do). There are about 50-60 and 360-370
 users in the `#ionic` and `#emberjs` channels on FreeNode, respectively.
 But during the 1-2 weeks I spent eyeing the channel logs in either room,
 99% percent of what I saw were: join/leave messages and unanswered
@@ -92,11 +92,10 @@ same.
 
 ### Stability and documentation
 
-Right, documentation. Everyone's old friend who stayed at home, was left
-behind and never saw the world. I have nothing against APIs that change,
-frameworks that move on. And I know that hardly anyone enjoys writing
-documentation or keeping it up to date. When I was actively contributing
-to [Xfce](http://xfce.org) we sucked at documentation. Most people do.
+Right, documentation. I have nothing against APIs that change, frameworks
+that move on. And I know that hardly anyone enjoys writing documentation or
+keeping it up to date. When I was actively contributing to
+[Xfce](http://xfce.org) we sucked at documentation. Most people do.
 
 But then again, the desktop world isn't moving anywhere near as fast as,
 for instance, the Ruby world or, even more so, the JavaScript world. If
@@ -114,23 +113,21 @@ were all using an HTML `animation` attribute, e.g.
 <some-element animation="slide-left-right-ios7">
 {% endhighlight %}
 
-It took me some time and running my app against Ionic with a few
-iterations of `git bisect` to find out that [the `animation` attribute
-had already been
+It took me some time and running my app against Ionic with a few iterations
+of `git bisect` to find out that [the `animation` attribute had already been
 removed](https://github.com/driftyco/ionic/commit/d4b9ed44fa613893f955f2d91aac246ff34d81cb)
-and it was all CSS classes now. In Ember, you first have to find a
-[certain file in
-GitHub](https://github.com/emberjs/data/blob/master/TRANSITION.md) to
-understand why all your data modeling, REST integration and JSON
-serialization isn't working. Oops, many of the examples out there are
-useless because the Ember Data API changed completely from 0.13 to 1.0.
-Ember Data alone is highly complex (about 13000 lines of code involving
-async operations, promises etc.)&#8212;there is no way you're going to
-find the cause of your issues by looking at the code quickly.
+and it was all CSS classes now. In Ember, you first have to find a [specific
+file in GitHub](https://github.com/emberjs/data/blob/master/TRANSITION.md)
+to understand why all your data modeling, REST integration and JSON
+serialization isn't working. As it turned out, the Ember Data API changed
+completely from 0.13 to 1.0, rendering many examples obsolete. Ember Data
+alone is highly complex (about 13000 lines of code involving async
+operations, promises etc.)&#8212;there is no way you're going to find the
+cause of your issues by quickly looking at the code.
 
 Both Ionic and Ember have very useful and complete documentation, which
 is hard enough to achieve. But this is just something to be aware of. In
-a fast-moving world, documentation will be outdated.
+a fast-moving world, documentation _will_ be outdated.
 
 ### Package and dependency management
 
@@ -143,13 +140,14 @@ packages and gems, most of the NPM and Bower packages are installed
 locally, into your project directory. Weird, huh?
 
 In essence, NPM and Bower are both tools to spin up a JS development and
-runtime environment for your project regardless of what distribution or
-OS you are using. I'm still not 100% percent sure about the difference
-between the two but my impression is that NPM is mostly used for build
-tools, shell utilities, generators, converters, anything that you would
-need to launch your project (e.g. in your browser), whereas Bower is
-used to install JS libraries needed by your project at runtime. The
-truth is probably somewhere in between.
+runtime environment for your project regardless of what distribution or OS
+you are using. I'm still not 100% percent sure about the difference between
+the two but my impression is that NPM is mostly used for build tools, shell
+utilities, generators, converters, anything that you would need to launch
+your project (e.g. by spinning up a web service and making it available from
+within your browser), whereas Bower is used to install JS libraries needed
+by your project (e.g. by clients such as the browser) at runtime. The truth
+probably lies somewhere in between.
 
 I've found Bower to be particularly cool. It's just so easy to run
 
@@ -157,11 +155,10 @@ I've found Bower to be particularly cool. It's just so easy to run
 bower install --save ember
 {% endhighlight %}
 
-and have Ember pulled in and dropped in your project, ready to be
-included in your HTML5 app and (thanks to `--save`) remembered for
-the future. Now all you need to do is add `bower.json` to version
-control and everyone in your project can spin up their environment with
-1-2 commands, e.g.
+and have Ember pulled in and dropped in your project, ready to be included
+in your HTML5 app and (thanks to `--save`) remembered for the future. Now
+all you need to do is add `bower.json` to version control and everyone in
+your project can spin up their environment with 1-2 commands, e.g.
 
 {% highlight bash %}
 npm install
@@ -180,10 +177,10 @@ I talk about fragmentation already?).
 ### Mobile web apps and frameworks
 
 Despite what the industry may claim (and has probably claimed for a few
-years by now), the whole HTML5 apps on phones story seems to be young.
-The UI frameworks that I have seen and tried all seem to be under
-fairly heavy development, with frequent breaking changes and basic
-features still being under major discussion.
+years by now), the whole HTML5 apps on phones story seems to be a young one.
+The UI frameworks that I have seen and tried all seem to be under fairly
+heavy development, with frequent breaking changes and basic features still
+being under major discussion.
 
 In the hybrid world, [Cordova] seems to have established itself as the
 underlying technology to bring HTML/JS/CSS to Android, iOS and more. For
@@ -205,21 +202,20 @@ forward/backward navigation, route transitions and animations between
 views in more ways than I can describe. Surely, there must be people out
 there who find this intuitive and can explain it to me?
 
-If you have a very simple app this may be fine. However, I wouldn't be
-at all surprised if things start breaking as soon as you add, let's say,
-tabs and subviews. One thing I really liked, however, was the very clear
-definition of SASS variables for colors, fonts etc., which were
+If you have a very simple app this may be fine. However, I wouldn't be at
+all surprised if things start breaking as soon as you add, let's say, tabs
+and subviews. One thing I really liked about Ionic, however, were the very
+clear definitions of SASS variables for colors, fonts etc., which were
 extremely easy to override and customize.
 
-There are other UI frameworks out there apart from Ionic, such as
-Sensha, Kendo UI and jQuery Mobile, all of which can be used with
-Cordova. We've only tried Ionic and jQuery Mobile. And however much I
-like jQuery, jQuery Mobile is a fucking mess. If you've got a prototype
-to write in only a few days and you want it to look decent / modern /
-roughly on par with what's out there... don't go with jQM, unless all
-you need to customize is colors. The rest of its CSS is highly
-convoluted, hard to override selectively and way too complex to be any
-good.
+There are other UI frameworks out there apart from Ionic, such as Sensha,
+Kendo UI and jQuery Mobile, all of which can be used with Cordova. We've
+only tried Ionic and jQuery Mobile. And however much I like jQuery, jQuery
+Mobile is a mess. If you've got a prototype to write in only a few days and
+you want it to look decent / modern / roughly on par with what's out
+there... don't go with jQM, unless all you need to customize is colors. The
+rest of its CSS is highly convoluted, hard to override selectively and way
+too complex to be any good.
 
 ### Angular vs. Ember and a hint at Web Components
 
@@ -243,27 +239,27 @@ confusion about when those relationships are actually ready.
 Serialization and deserialization of JSON data can be tricky if the web
 API doesn't match Ember's expectations. Did I mention issues with
 duplicates in the local store cache when saving records with
-relationships to other objects? Fun.
+relationships to other objects? Fun. Hellish fun.
 
 Apart from that, Ember feels pretty intuitive to me. The reason I will
 be evaluating other solutions before fully committing to Ember, however,
 is that it is a complex framework. If you have ever dived into
 `DS.Model.save()` with a step by step debugger, you'll know what I mean.
-I am concerned about losing control.
+I'd be concerned about losing control.
 
 [Web Components](http://webcomponents.org/) (see also [this talk
 here](https://www.youtube.com/watch?v=OoaUd5NxiYk)) look like a promising
-alternative to Angular directives that could also work with Ember at
-some point. Besides Web Components looking like a lot of fun, there are
+alternative to Angular directives that could also work with Ember at some
+point. Besides Web Components looking like a lot of fun, there are
 apparently plans to support them in both frameworks already. I'm not sure
 how much fun it is going to be to work with a mix of in-component JS and
 application logic written in e.g. Ember, especially when it comes to
-routing, transitioning, data binding, off- and online syncing etc. but
-as self-contained and -styled elements that you can pass data bindings
-into from e.g. Ember I imagine they could be pretty cool. Ember
-components feel a little cumbersome and all over the place to me so
-far, with their separate templates, `Ember.Component` subclasses and
-global CSS.
+routing, transitioning, data binding, off- and online syncing etc. but as
+self-contained and -styled elements that you can pass data bindings into
+from e.g. Ember, I imagine they could be pretty cool. Ember components feel
+a little cumbersome and all over the place to me so far, with their
+templates, `Ember.Component` subclasses and global CSS all being defined
+separately.
 
 ### Integration of Ember and jQuery
 
