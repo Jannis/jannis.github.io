@@ -43,15 +43,15 @@ the Saffire Pro 40 via ADAT. Together, this allows to record 16 mic/line
 inputs in parallel.
 
 For monitoring I use the two headphone outputs of the Saffire Pro 40 to
-connect a pair of in-ears (for recording) and decent studio headphones.
-I also use two pairs of studio monitors (one good pair, the the other
-focused on mid-range). This gives me 4 different ways of playing
-recordings and mixes back in different qualities and with different
-characteristics (the in-ears are very bassy for example, while the other
-headphones lack a bit of bass). From my own experience I can definitely
-say that I lean towards using one of them (the studio headphones because
-I'm very used to them) for most of the mixing work and the others only
-to verify the mix and make adjustments.
+connect a pair of in-ears (for recording) and decent studio headphones
+(for mixing). I also use two pairs of studio monitors (one good pair,
+the other focused on mid-range). This gives me 4 different ways of
+playing recordings and mixes back in different qualities and with
+different characteristics (the in-ears are very bassy for example, while
+the other headphones lack a bit of bass). From my own experience I can
+definitely say that I lean towards using one of them (the studio
+headphones because I'm very used to them) for most of the mixing work
+and the others only to verify the mix and make adjustments.
 
 ## Instrument miking
 
