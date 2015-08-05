@@ -75,7 +75,7 @@ miking setup (for now anyway):
 
 ### Guitar
 
-Due to my stereo delay pedal, I have to mic two amps. One of the amps
+Due to my stereo delay setup, I have to mic two amps. One of the amps
 acts as the main amp and is usually mixed more prominently. In my case,
 this is a 100 watt head with a 4x12 speaker cabinet. I tend to record it
 using a single dynamic mic, a Sennheiser E609, placed right in front of
