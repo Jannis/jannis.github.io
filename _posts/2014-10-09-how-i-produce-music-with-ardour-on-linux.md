@@ -28,10 +28,11 @@ effects including a stereo delay, two guitar amps (one for each delay
 channel), a bass and bass amp and a synth.
 
 For recording I use a regular desktop PC running [Fedora 17] (yes, I am
-aware this is rather old), equipped with a FireWire card and a Bluetooth
-dongle, the former to connect an audio interface, the latter to connect
-a Wiimote for controlling Ardour remotely during recordings
-(coincidentally, I wrote the Wiimote plugin shipped with Ardour 3).
+aware that this is rather old), equipped with a FireWire card and a
+Bluetooth dongle, the former to connect an audio interface, the latter
+to connect a Wiimote for controlling Ardour remotely during recordings
+(coincidentally, I am the one who wrote the Wiimote plugin shipped with
+Ardour 3).
 
 I use a [Focusrite Saffire Pro
 40](http://us.focusrite.com/firewire-audio-interfaces/saffire-pro-40) in
