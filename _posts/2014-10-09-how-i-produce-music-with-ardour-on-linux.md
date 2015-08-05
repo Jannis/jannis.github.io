@@ -56,13 +56,13 @@ and the others only to verify the mix and make adjustments.
 
 ## Instrument miking
 
-With miking there is no ultimate truth or recipe for a good sound. Taste
-varies, the room acoustics vary between different rooms, even between
-different spots in the same room, microphone characteristics vary. I'd
-say it's all up to understanding the microphones and instruments you're
-working with (e.g. through reading books and tutorials) as well as
-gaining confidence and an intuition for the methods you like through
-experimentation.
+With miking there is no ultimate truth or recipe for a good sound.
+Tastes vary, the room acoustics vary between different rooms, even
+between different spots in the same room, microphone characteristics
+vary. I'd say it's all up to understanding the microphones and
+instruments you're working with (e.g. through reading books and
+tutorials) as well as gaining confidence and an intuition for the
+methods you like through experimentation.
 
 Having said that, there is a book that I can wholeheartedly recommend to
 anyone wanting to understand different microphones and miking techniques
