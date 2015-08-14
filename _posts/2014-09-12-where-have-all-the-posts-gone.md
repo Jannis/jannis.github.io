@@ -11,4 +11,4 @@ still there. I have moved everything to
 the old post URLs should still work, so whatever links exist out there
 pointing to this website, they should be ok.
 
-The old feed is gone and has been replaced with [a new one](/feed.xml).
+The old feed is gone and has been replaced with [this one](/feed.xml).
